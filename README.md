@@ -3,7 +3,7 @@
 ## Usage
 #### in module
 ```typescript
-import { NgxNearbyModule } from 'ng-nearby'
+import { NgxNearbyModule } from 'ngx-nearby'
 
 @NgModule({
   declarations: [AppComponent],
