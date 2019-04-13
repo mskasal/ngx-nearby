@@ -1,6 +1,19 @@
 # NgxNearby
 
 ## Usage
+#### in module
+```typescript
+import { NgxNearbyModule } from 'projects/ngx-nearby/src/public-api'
+
+@NgModule({
+  declarations: [AppComponent],
+  imports: [BrowserModule, NgxNearbyModule],
+  providers: [],
+  bootstrap: [AppComponent],
+})
+export class AppModule {}
+
+```
 
 #### in template
 ```html
