@@ -43,7 +43,7 @@ export class NgxNearbyDirective {
           this.nearby.emit({ distance, nearby: true })
         } else if (this.nearbyActiveDistance !== undefined && this.nearbyActiveDistance < distance) {
           this.nearby.emit({ distance, nearby: false })
-        } else if (!this.nearbyActiveDistance === undefined) {
+        } else if (this.nearbyActiveDistance === undefined) {
           this.nearby.emit(distance)
         }
       }
