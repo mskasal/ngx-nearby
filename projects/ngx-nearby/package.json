@@ -1,6 +1,6 @@
 {
   "name": "ngx-nearby",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A mouse move event nearby directive for Angular",
   "repository": {
     "type": "git",
