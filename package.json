@@ -9,7 +9,26 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "description": "A mouse move event nearby directive for Angular",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mskasal/ngx-nearby.git"
+  },
+  "keywords": [
+    "angular",
+    "nearby",
+    "directive",
+    "mouse move",
+    "tool",
+    "typescript"
+  ],
+  "author": "Mustafa Samed Kasal <mustafasamedkasal@gmail.com> (https://samed.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mskasal/ngx-nearby/issues"
+  },
+  "homepage": "https://github.com/mskasal/ngx-nearby/blob/master/README.md",
+  "private": false,
   "dependencies": {
     "@angular/animations": "~7.2.0",
     "@angular/common": "~7.2.0",
