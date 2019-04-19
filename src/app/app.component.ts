@@ -9,6 +9,8 @@ export class AppComponent {
   title = 'ngx-nearby-demo'
   @ViewChild('img') imgRef: ElementRef
   onProgress(result: NearbyResultModel) {
+    console.log(result)
+
     if (result.nearby) {
       this.imgRef.nativeElement.style.transform = 'rotate(90deg)'
     } else {
